@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#00009f">
+<Button android:layout_height="wrap_content" android:id="@+id/Button01" android:layout_width="wrap_content" android:text="+" android:layout_x="90dip" android:layout_y="200dip" android:width="15pt"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/Button02" android:layout_width="wrap_content" android:text="-" android:layout_x="130dip" android:layout_y="200dip" android:width="15pt"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/Button03" android:layout_width="wrap_content" android:layout_x="210dip" android:layout_y="200dip" android:width="15pt" android:text="x"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/Button04" android:layout_width="wrap_content" android:text="/" android:layout_x="170dip" android:layout_y="200dip" android:width="15pt"></Button>
+<EditText android:layout_height="wrap_content" android:id="@+id/EditText01" android:layout_width="wrap_content" android:width="50pt" android:layout_x="110dip" android:layout_y="100dip"></EditText>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView01" android:text="Number1 :" android:textSize="8pt" android:layout_x="8dip" android:layout_y="60dip"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="16dip" android:id="@+id/TextView02" android:layout_x="80dip" android:textSize="8pt" android:text="โปรแกรมเครื่องคิดเลข"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView03" android:text="Number2 :" android:layout_x="8dip" android:textSize="8pt" android:layout_y="110dip"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/EditText02" android:width="50pt" android:layout_x="110dip" android:layout_y="50dip"></EditText>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView04" android:text="Result :" android:textSize="8pt" android:layout_x="40dip" android:layout_y="155dip"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView05" android:layout_x="110dip" android:textSize="10pt" android:width="50pt" android:textColorHighlight="#000000" android:background="#00ff00" android:textColor="#ffffff" android:layout_y="155dip"></TextView>
+<Button android:id="@+id/Button05" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Clear" android:layout_x="140dip" android:layout_y="260dip"></Button>
+</AbsoluteLayout>

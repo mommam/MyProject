@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:clickable="false" android:background="#255344">
+
+
+
+
+
+
+
+<Button android:id="@+id/Button01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Music" android:layout_y="80dip" android:width="50pt" android:layout_x="30dip"></Button>
+<Button android:id="@+id/Button02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="VDO" android:visibility="visible" android:layout_y="80dip" android:width="50pt" android:layout_x="170dip"></Button>
+<Button android:id="@+id/Button03" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Calaulate" android:layout_y="150dip" android:width="50pt" android:layout_x="30dip"></Button>
+<Button android:id="@+id/Button04" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="CalculateBMI" android:width="50pt" android:layout_x="170dip" android:layout_y="150dip"></Button>
+<Button android:id="@+id/Button05" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="GoogleMaps" android:width="50pt" android:layout_y="220dip" android:layout_x="30dip"></Button>
+<Button android:id="@+id/Button06" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Webview" android:width="50pt" android:layout_x="170dip" android:layout_y="220dip"></Button>
+<Button android:id="@+id/Button07" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="SMS" android:width="50pt" android:layout_x="100dip" android:layout_y="290dip"></Button>
+<TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_width="wrap_content" android:text="MyProject" android:textSize="16pt" android:layout_y="20dip" android:layout_x="70dip"></TextView>
+</AbsoluteLayout>
